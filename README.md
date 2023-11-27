@@ -1,4 +1,4 @@
-# Lawyerify Netlify CMS
+# Lawyerify Decap CMS
 
 ## Table of contents
 
@@ -18,6 +18,8 @@
 - places
 - expertises
 - posts
+  - auteurs (posts taxonomy)
+  - expertises (posts taxonomy)
   - categories (posts taxonomy)
   - tags (posts taxonomy)
 - publications
@@ -34,18 +36,18 @@
 
 
 ## Depend repository
-* Hugolify Netlify CMS : [Hugolify template](https://github.com/hugolify/hugolify-netlify-cms)
+* Hugolify Decap CMS : https://github.com/hugolify/hugolify-decap-cms
 
 ## Live demo
 - Front: https://demo.lawyerify.io
 
 ## Install
 
-Edit `config/_default/module.yaml` to install the `lawyerify-netlify-cms` module with `hugolify-netlify-cms`:
+Edit `config/_default/module.yaml` to install the `lawyerify-decap-cms` module with `hugolify-decap-cms`:
 ```yml
 imports:
-  - path: github.com/hugolify/lawyerify-netlify-cms
-  - path: github.com/hugolify/hugolify-netlify-cms
+  - path: github.com/hugolify/lawyerify-decap-cms
+  - path: github.com/hugolify/hugolify-decap-cms
 ```
 
 ## Documentations
