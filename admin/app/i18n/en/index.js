@@ -1,4 +1,4 @@
-import { lawyerify } from "./lawyerify.js";
+import { lawyerify } from './lawyerify.js';
 
 export const blocks = lawyerify.blocks;
 export const config = lawyerify.config;

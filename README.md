@@ -10,8 +10,8 @@
 - [Documentations](#documentations)
 - [License](#license)
 
-
 ## Features
+
 - rubrics `create false`
 - pages
 - persons
@@ -34,16 +34,18 @@
 
 ## Screenshot
 
-
 ## Depend repository
-* Hugolify Decap CMS : https://github.com/hugolify/hugolify-decap-cms
+
+- Hugolify Decap CMS : https://github.com/hugolify/hugolify-decap-cms
 
 ## Live demo
+
 - Front: https://demo.lawyerify.io
 
 ## Install
 
 Edit `config/_default/module.yaml` to install the `lawyerify-decap-cms` module with `hugolify-decap-cms`:
+
 ```yml
 imports:
   - path: github.com/hugolify/lawyerify-decap-cms
@@ -51,7 +53,9 @@ imports:
 ```
 
 ## Documentations
+
 https://github.com/hugolify/hugolify-template/wiki
 
 ## License
+
 Hugolify is free for personal or commercial projects (MIT license)

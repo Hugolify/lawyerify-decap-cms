@@ -1,17 +1,17 @@
 {
-    "name": "lawyerify-decap-cms",
-    "version": "1.4.0",
-    "homepage": "https://www.lawyerify.io",
-    "repository": "https://github.com/hugolify/lawyerify-decap-cms",
-    "bugs": {
-        "url": "https://github.com/hugolify/lawyerify-decap-cms/issues"
-    },
-    "author": {
-        "name": "Sébastien Moulène",
-        "url": "https://www.sebastienmoulene.com/"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "@hugolify/prettier-config": "^0.3.1"
-    }
+  "name": "lawyerify-decap-cms",
+  "version": "1.4.0",
+  "homepage": "https://www.lawyerify.io",
+  "repository": "https://github.com/hugolify/lawyerify-decap-cms",
+  "bugs": {
+    "url": "https://github.com/hugolify/lawyerify-decap-cms/issues"
+  },
+  "author": {
+    "name": "Sébastien Moulène",
+    "url": "https://www.sebastienmoulene.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@hugolify/prettier-config": "^0.3.1"
+  }
 }
