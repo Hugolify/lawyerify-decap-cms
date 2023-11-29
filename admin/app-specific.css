@@ -1,63 +1,60 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');
 
 :root {
-    --primary-color: #060C84;
+  --primary-color: #060c84;
 }
 
-[class*="-CustomIconWrapper"] img {
-    height: 20px;
-    width: auto;
+[class*='-CustomIconWrapper'] img {
+  height: 20px;
+  width: auto;
 }
 
-aside [href="#/collections/persons_statutes"] span::before {
-    content: '\F8A7';
+aside [href='#/collections/persons_statutes'] span::before {
+  content: '\F8A7';
 }
-aside [href="#/collections/places"] span::before {
-    content: '\F1DD';
+aside [href='#/collections/places'] span::before {
+  content: '\F1DD';
 }
-aside [href="#/collections/realestates_sellers"] span::before {
-    content: '\F3D8';
-}
-
-
-/* TAXONOMIES */ 
-[class*=-ControlContainer]:has([id^=realestates_persons]) {
-    float: none;
-    width: 100%;
-}
-[class*=-ControlContainer]:has([id^=realestates_sellers]) {
-    float: left;
-    width: 49%;
-}
-[class*=-ControlContainer]:has([id^=realestates_categories]) {
-    clear: none;
-    float: right;
-    width: 49%;
+aside [href='#/collections/realestates_sellers'] span::before {
+  content: '\F3D8';
 }
 
+/* TAXONOMIES */
+[class*='-ControlContainer']:has([id^='realestates_persons']) {
+  float: none;
+  width: 100%;
+}
+[class*='-ControlContainer']:has([id^='realestates_sellers']) {
+  float: left;
+  width: 49%;
+}
+[class*='-ControlContainer']:has([id^='realestates_categories']) {
+  clear: none;
+  float: right;
+  width: 49%;
+}
 
-/* PRICES */ 
-[id^=offer-field] :has(> [id^=price-field]),
-[id^=offer-field] :has(> [id^=price_sold-field]) {
-    float: left;
-    width: 49%;
+/* PRICES */
+[id^='offer-field'] :has(> [id^='price-field']),
+[id^='offer-field'] :has(> [id^='price_sold-field']) {
+  float: left;
+  width: 49%;
 }
-[id^=offer-field] :has(> [id^=price_sold-field]) {
-    clear: none;
-    float: right;
+[id^='offer-field'] :has(> [id^='price_sold-field']) {
+  clear: none;
+  float: right;
 }
 
-
-/* VISITS */ 
-[id^=visits-field] :has(> [class*=ControlContainer]) {
-    display: flex;
-    justify-content: space-between;
+/* VISITS */
+[id^='visits-field'] :has(> [class*='ControlContainer']) {
+  display: flex;
+  justify-content: space-between;
 }
-[id^=visits-field] [class*=ControlContainer] {
-    align-items: baseline;
-    display: flex;
-    flex-basis: 49%;
+[id^='visits-field'] [class*='ControlContainer'] {
+  align-items: baseline;
+  display: flex;
+  flex-basis: 49%;
 }
-[id^=visits-field] [class*=ControlContainer] > div {
-    flex: 2;
+[id^='visits-field'] [class*='ControlContainer'] > div {
+  flex: 2;
 }
