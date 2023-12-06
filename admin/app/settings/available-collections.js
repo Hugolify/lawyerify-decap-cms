@@ -6,11 +6,13 @@ import tags from '../content/tags.js';
 import publications from '../content/publications.js';
 import publications_categories from '../content/publications_categories.js';
 import persons from '../content/persons.js';
+import persons_statutes from '../content/persons_statutes.js';
 
 export default [
   expertises,
   places,
   persons,
+  persons_statutes,
   posts,
   categories,
   tags,

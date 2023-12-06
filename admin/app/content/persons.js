@@ -2,9 +2,9 @@ import { isNotIndex } from '../fields/is-not-index.js';
 import { draft } from '../fields/draft.js';
 import { title } from '../fields/title.js';
 import { description } from '../fields/description.js';
-import { statutes } from '../fields/persons-statutes.js';
-import { expertises } from '../fields/persons-expertises.js';
-import { places } from '../fields/persons-places.js';
+import { persons_statutes } from '../fields/persons_statutes.js';
+import { persons_expertises } from '../fields/persons_expertises.js';
+import { persons_places } from '../fields/persons_places.js';
 import { featured_image } from '../fields/featured-image.js';
 import { contact } from '../fields/contact.js';
 import { body } from '../fields/body.js';
@@ -33,9 +33,9 @@ const persons = {
     isNotIndex,
     draft,
     title,
-    statutes,
-    expertises,
-    places,
+    persons_statutes,
+    persons_expertises,
+    persons_places,
     description,
     featured_image,
     contact,

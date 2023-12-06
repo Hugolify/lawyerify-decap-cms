@@ -33,9 +33,7 @@ export const lawyerify = overrideTranslations(
       date_sale: 'Sale date',
       places_items: 'Offices',
       place: 'Office',
-      persons_expertises: 'Expert in?',
       persons_places: 'Attached to one or more offices?',
-      persons_statutes: 'Status',
       price: {
         label: 'Pricing',
         sold: 'Adjudged price'
